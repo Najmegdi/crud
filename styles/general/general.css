@@ -1,0 +1,176 @@
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+  font-family: Roboto , sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background: #e4effb;
+  color: #929191;
+}
+
+*::selection {
+  background: #808080;
+}
+
+input {
+    border: .5px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin-bottom: 1.3rem;
+}
+
+input::placeholder {
+  color: #979696;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .7rem;
+}
+
+
+main {
+    display: flex;
+    gap: 5rem;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0px 7px 20px 6px #abc4e7;
+    background: #e6edf9;
+}
+
+.info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 550px;
+    
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    max-height: 550px;
+    overflow: auto;
+    flex-wrap: wrap;
+    background: none;
+    box-shadow: none;
+}
+.cards:hover {
+  box-shadow: 0px 7px 20px 6px #abc4e7;
+  background: #e6edf9;
+  transition: 0.5s ease-in-out;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow:0px 7px 20px 6px #abc4e7;
+    background:  #e6edf9;
+    padding: 1rem;
+    margin: 2rem;
+    color: #464545;
+    width: 190px;
+    height: 165px;
+    gap: .8rem;
+}
+
+.card div{
+    display: flex;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+
+.card-box {
+    display: block;
+}
+
+.student-info-card {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+  
+#submit {
+    padding: .7rem 3rem; 
+    margin: 3rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background:  #4a4af9 ;
+    transition: 0.4s ease-in-out;
+    height: 4rem;
+    color:#e9e7e7;
+    font-size: 1.7rem;
+}
+
+#submit:hover {
+  background:  #3434f6;
+  border: 1px solid #101010;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+
+.card-buttons {
+  padding: .5rem 1rem; 
+  margin: .5rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background:  #7a8df8;
+  color: #e9e7e7;
+  transition: 0.4s ease-in-out;
+  width: 60px;
+}
+
+.card-buttons:hover {
+  background:  #ff7350;
+  border: 1px solid #101010;
+}
+
+.error-message {
+  display: block;
+  color: #ff1717;
+  font-size: 1.2rem;
+  margin-bottom: .3rem;
+}
+
+.input-alert {
+  border: 1px solid #ff1717;
+}
+
+.style-alert {
+  color: #ff1717;
+}

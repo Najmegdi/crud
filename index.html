@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>project</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="info-form section">
+        <div class="form-box">
+          <form id="form">
+            <label for="firstname">First name</label><br />
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              class="input-element"
+              placeholder="FirstName"
+            /><br />
+            <label for="lastname">Last name</label><br />
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              class="input-element"
+              placeholder="LastName"
+            /><br />
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input-element"
+              placeholder="Email@mail.com"
+            /><br />
+            <span
+              class="error-message validate-email"
+            ></span>
+            <label for="score">Score</label><br />
+            <input
+              type="text"
+              id="score"
+              name="score"
+              class="input-element"
+              placeholder="Enter a number"
+            /><br />
+            <span
+              class="error-message validate-score"
+            ></span>
+          </form>
+          <div class="buttons">
+            <button type="submit" id="submit" form="form">Save</button>
+          </div>
+        </div>
+        <span class="message-box style-alert"></span>
+      </section>
+
+      <section class="cards section"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
